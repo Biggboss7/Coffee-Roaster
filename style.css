@@ -1,0 +1,27 @@
+:root {
+  --dark-cyan : hsl(179, 81%, 29%);
+  --dark-blue : hsl(215, 19%, 25%);
+  --pale-orange : hsl(25, 94%, 86%);
+  --light-cream : hsl(43, 78%, 98%);
+  --grey : hsl(215, 5%, 54%);
+}
+
+* {
+  margin : 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-size: 16px;
+}
+
+body {
+  min-height: 100vh;
+  background-color: var(--light-cream);
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Fraunces', serif;
+}
