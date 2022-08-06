@@ -34,6 +34,7 @@ a {
 
 /* Header Section */
 .header {
+  margin-bottom: 15rem;
   padding: 1rem 5rem 0;
 }
 
@@ -107,4 +108,48 @@ a {
   font-size: 1.2rem;
   color: white;
   background-color: var(--dark-cyan);
+}
+
+/* Features Section */
+.features__container {
+  margin-bottom: 10rem;
+  padding: 0 5rem;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 30px;
+  position: relative;
+}
+
+.features__title {
+  position: absolute;
+  top: -32%;
+  left: 20%;
+  font-size: 9.375rem;
+  background: -webkit-linear-gradient(var(--grey)10%, var(--light-cream)90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  z-index: -1;
+}
+
+.features__card {
+  text-align: center;
+}
+
+.features__image-container {
+  margin-bottom: 2rem;
+}
+
+.features__card-image {
+  max-width: 80%;
+}
+
+.features__card-title {
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+}
+
+.features__card-description {
+  padding: 0 3rem;
+  line-height: 26px;
 }
