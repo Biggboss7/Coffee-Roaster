@@ -153,3 +153,64 @@ a {
   padding: 0 3rem;
   line-height: 26px;
 }
+
+/* Company Excellence Section */
+.why-us__container {
+  height: 577px;
+  position: relative;
+  color: var(--light-cream);
+  background-color: #2C343E;
+  border-radius: 16px;
+}
+
+.why-us__content {
+  width: 33.75rem;
+  position: relative;
+  left: 30%;
+  top: 15%;
+  text-align: center;
+}
+
+.why-us__title {
+  margin-bottom: 1.5rem;
+  font-size: 2.5rem;
+}
+
+.why-us__description {
+  line-height: 26px;
+}
+
+.why-us__card-container {
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+  position: absolute;
+  left: 5%;
+  top: 60%;
+  text-align: center;
+}
+
+.why-us__card {
+  padding: 3rem;
+  background-color: var(--dark-cyan);
+  border-radius: 10px;
+}
+
+.why-us__image-container {
+  height: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.why-us__card-title {
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+  line-height: 32px;
+}
+
+.why-us__card-description {
+  padding: 0 3rem;
+  line-height: 26px;
+}
