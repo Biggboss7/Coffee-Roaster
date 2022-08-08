@@ -104,7 +104,7 @@ a {
   cursor: pointer;
 }
 
-.header__btn {
+.header__btn, .cta__btn {
   font-size: 1.2rem;
   color: white;
   background-color: var(--dark-cyan);
@@ -212,5 +212,57 @@ a {
 
 .why-us__card-description {
   padding: 0 3rem;
+  line-height: 26px;
+}
+
+/* CTA Section */
+.cta__container {
+  margin-bottom: 10rem;
+}
+
+.cta__card-container {
+  margin-bottom: 3rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.cta__title {
+   color:var(--grey);
+   margin-bottom: 5rem;
+}
+
+.circle {
+  width: 2rem;
+  height: 2rem;
+  position: relative;
+  top: -1rem;
+  background-color: white;
+  border: 3px solid var(--dark-cyan);
+  border-radius: 100%;
+}
+
+.cta__card_border-top {
+  border-color: var(--pale-orange);
+  border-top-style: solid;
+}
+
+.cta__step {
+  margin: 3rem 0;
+  font-size: 4.5rem;
+  line-height: 4.5rem;
+  color: var(--pale-orange);
+}
+
+.cta__card-content {
+  width: 15.6rem;
+}
+
+.cta__card-title {
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  line-height: 36px;
+}
+
+.cta__card-description {
   line-height: 26px;
 }
