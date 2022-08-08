@@ -52,13 +52,13 @@ a {
   align-items: center;
 }
 
-.header__navigation-item {
+.header__navigation-item, .footer__navigation-item {
   margin-left: 2.1rem;
   line-height: 15px;
   list-style-type: none;
 }
 
-.header__navigation-link {
+.header__navigation-link, .footer__navigation-link {
   font-size: 0.75rem;
   font-weight: bold;
   color: var(--grey);
@@ -265,4 +265,28 @@ a {
 
 .cta__card-description {
   line-height: 26px;
+}
+
+/* Footer Section */
+.footer__container {
+  margin-bottom: 5rem;
+  padding: 0 5rem;
+}
+
+.footer__logo {
+  margin-right: 5rem;
+}
+
+.footer__navigation-container {
+  height: 7.5rem;
+  padding: 0 5.3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2C343E;
+}
+
+.footer__navigation-content, .footer__page-navigation, .footer__socmed-navigation {
+  display: flex;
+  align-items: center;
 }
