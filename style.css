@@ -32,6 +32,11 @@ a {
   text-decoration: none;
 }
 
+.text-description {
+  font-size: 1rem;
+  line-height: 26px;
+}
+
 /* Header Section */
 .header {
   margin-bottom: 15rem;
@@ -91,7 +96,6 @@ a {
 .header__description {
   margin-bottom: 3rem;
   padding-right: 4rem;
-  line-height: 26px;
   opacity: 0.7;
 }
 
@@ -149,9 +153,8 @@ a {
   font-size: 1.5rem;
 }
 
-.features__card-description {
+.features__card-description, .why-us__card-description {
   padding: 0 3rem;
-  line-height: 26px;
 }
 
 /* Company Excellence Section */
@@ -174,10 +177,6 @@ a {
 .why-us__title {
   margin-bottom: 1.5rem;
   font-size: 2.5rem;
-}
-
-.why-us__description {
-  line-height: 26px;
 }
 
 .why-us__card-container {
@@ -208,11 +207,6 @@ a {
   margin-bottom: 1.5rem;
   font-size: 1.5rem;
   line-height: 32px;
-}
-
-.why-us__card-description {
-  padding: 0 3rem;
-  line-height: 26px;
 }
 
 /* CTA Section */
@@ -261,10 +255,6 @@ a {
   margin-bottom: 1.5rem;
   font-size: 2rem;
   line-height: 36px;
-}
-
-.cta__card-description {
-  line-height: 26px;
 }
 
 /* Footer Section */
