@@ -338,4 +338,29 @@ a {
   .header__jumbotron_bg-coffee {
     background-image: url("assets/home/tablet/image-hero-coffeepress.jpg");
   }
+
+  /* Features Section */
+  .features__container {
+    grid-template-columns: 1fr;
+  }
+
+  .features__card, .features__card-content {
+    display: flex;
+  }
+
+  .features__card-content {
+    flex-direction: column;
+    text-align: left;
+  }
+
+  .features__title {
+    font-size: 6rem;
+    top: -70px;
+  }
+
+  .features__card-description {
+    padding: 0;
+  }
+
+
 }
