@@ -310,3 +310,32 @@ a {
 .footer__socmed-logo path:hover {
   fill: var(--pale-orange);
 }
+
+@media only screen and (max-width:1300px) {
+  .text-description {
+    font-size: 0.9375rem;
+    line-height: 25px;
+  }
+
+  .header {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .header__jumbotron {
+    padding: 5rem 2rem;
+  }
+
+  .header__jumbotron-content {
+    width: 68%;
+  }
+
+  .header__heading {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+
+  .header__jumbotron_bg-coffee {
+    background-image: url("assets/home/tablet/image-hero-coffeepress.jpg");
+  }
+}
