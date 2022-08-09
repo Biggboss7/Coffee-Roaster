@@ -127,10 +127,13 @@ a {
   background-color: var(--dark-cyan);
 }
 
+.main__container {
+  padding: 0 5rem;
+}
+
 /* Features Section */
 .features__container {
   margin-bottom: 10rem;
-  padding: 0 5rem;
   display: grid;
   justify-content: center;
   grid-template-columns: repeat(4, 1fr);
@@ -173,6 +176,7 @@ a {
 /* Company Excellence Section */
 .why-us__container {
   height: 577px;
+  margin-bottom: 25rem;
   position: relative;
   color: var(--light-cream);
   background-color: #2C343E;
