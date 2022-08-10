@@ -410,4 +410,19 @@ a {
   .header__jumbotron_bg-coffee {
     background-image: url("assets/home/mobile/image-hero-coffeepress.jpg");
   }
+
+  /* Features Section */
+  .features__card {
+    margin: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .features__title {
+    top: -50px;
+  }
+
+  .features__card-content {
+    text-align: center;
+  }
 }
