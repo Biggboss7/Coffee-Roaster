@@ -185,9 +185,8 @@ a {
 
 .why-us__content {
   width: 33.75rem;
-  position: relative;
-  left: 30%;
-  top: 15%;
+  margin: 0 auto;
+  padding-top: 3rem;
   text-align: center;
 }
 
@@ -340,15 +339,15 @@ a {
   }
 
   /* Features Section */
-  .features__container {
+  .features__container, .why-us__card-container {
     grid-template-columns: 1fr;
   }
 
-  .features__card, .features__card-content {
+  .features__card, .features__card-content, .why-us__card {
     display: flex;
   }
 
-  .features__card-content {
+  .features__card-content, .why-us__card-content {
     flex-direction: column;
     text-align: left;
   }
@@ -358,9 +357,18 @@ a {
     top: -70px;
   }
 
-  .features__card-description {
+  .features__card-description, .why-us__card-description {
     padding: 0;
   }
 
+  /* Why-us Section */
+  .why-us__card-container {
+    top: 40%;
+  }
+
+  .why-us__image-container {
+    height: 100%;
+    margin-right: 4rem;
+  }
 
 }
