@@ -19,6 +19,7 @@ html {
 }
 
 body {
+  min-width: 375px;
   min-height: 100vh;
   background-color: var(--light-cream);
 }
@@ -385,7 +386,8 @@ a {
 }
 
 @media only screen and (max-width: 610px) {
-  .desktop {
+  /* Universal Styling */
+  .desktop, .circle {
     display: none;
   }
 
@@ -397,14 +399,25 @@ a {
     width: 100%;
   }
 
+  /* Header Section */
   .header, .main__container, .footer__container {
     padding-left: 1rem;
     padding-right: 1rem;
   }
 
-  .header__jumbotron-content {
-    width: 100%;
+  .header__jumbotron-content,
+  .features__card-content,
+  .why-us__card-content, .cta__card-content,
+  .cta__title  {
     text-align: center;
+  }
+
+  .header, .features__container {
+    margin-bottom: 7rem;
+  }
+
+  .header__jumbotron-content, .cta__card-content {
+    width: 100%;
   }
 
   .header__jumbotron_bg-coffee {
@@ -426,6 +439,7 @@ a {
   .why-us__container {
     margin-bottom: 60rem;
   }
+
   .why-us__card {
     flex-direction: column;
   }
