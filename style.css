@@ -287,8 +287,7 @@ a {
 }
 
 .footer__navigation-container {
-  height: 7.5rem;
-  padding: 0 5.3rem;
+  padding: 5.3rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -377,4 +376,26 @@ a {
   .cta__card-content {
     width: 80%;
   }
+
+  /* Footer Section */
+  .footer__navigation-container, .footer__navigation-content {
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .footer__page-navigation {
+    width: 100%;
+    margin: 1.5rem 0 3rem;
+    justify-content: space-between;
+  }
+
+  .footer__logo, .footer__navigation-item {
+    margin: 0;
+  }
+
+  .footer__socmed-navigation {
+    width: 25%;
+    justify-content: space-between;
+  }
+
 }
