@@ -439,4 +439,17 @@ a {
     margin-bottom: 3rem;
   }
 
+  /* CTA Section */
+  .cta__card-container {
+    grid-template-columns: 1fr;
+  }
+
+  .cta__title {
+    margin-bottom: 1rem;
+  }
+
+  .cta__card_border-top {
+    border-style: none;
+  }
+
 }
