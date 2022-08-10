@@ -190,7 +190,7 @@ a {
 }
 
 .why-us__content {
-  width: 33.75rem;
+  width: clamp(260px, 90%, 450px);
   margin: 0 auto;
   padding-top: 3rem;
   text-align: center;
@@ -422,7 +422,21 @@ a {
     top: -50px;
   }
 
-  .features__card-content {
-    text-align: center;
+  /* Company Excellence Section   */
+  .why-us__container {
+    margin-bottom: 60rem;
   }
+  .why-us__card {
+    flex-direction: column;
+  }
+
+  .why-us__card-container {
+    top: 60%;
+  }
+
+  .why-us__image-container {
+    margin-right: 0;
+    margin-bottom: 3rem;
+  }
+
 }
