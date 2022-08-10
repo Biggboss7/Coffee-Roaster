@@ -32,6 +32,10 @@ a {
   text-decoration: none;
 }
 
+.mobile {
+  display: none;
+}
+
 .text-description {
   font-size: 1rem;
   line-height: 26px;
@@ -377,5 +381,33 @@ a {
   .footer__socmed-navigation {
     width: 25%;
     justify-content: space-between;
+  }
+}
+
+@media only screen and (max-width: 610px) {
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .header, .main__container, .footer__container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .header__jumbotron-content {
+    width: 100%;
+    text-align: center;
+  }
+
+  .header__jumbotron_bg-coffee {
+    background-image: url("assets/home/mobile/image-hero-coffeepress.jpg");
   }
 }
