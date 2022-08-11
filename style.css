@@ -201,7 +201,7 @@ a {
   text-align: center;
 }
 
-.why-us__title {
+.why-us__title, .commitment__title {
   margin-bottom: 1.5rem;
   font-size: clamp(2rem, 1.8239rem + 0.7512vw, 2.5rem);
 }
@@ -282,6 +282,31 @@ a {
   margin-bottom: 1.5rem;
   font-size: clamp(2rem, 2.0880rem + -0.3756vw, 1.75rem);
   line-height: 36px;
+}
+
+/* Company Commitment Section */
+.commitment__container {
+  margin-top: -5rem;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+}
+
+.commitment__image-container {
+  justify-self: center;
+}
+
+.commitment__image {
+  width: 90%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.commitment__content {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 /* Footer Section */
