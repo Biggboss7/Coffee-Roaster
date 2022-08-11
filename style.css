@@ -98,6 +98,10 @@ a {
   background-image: url("assets/home/desktop/image-hero-coffeepress.jpg");
 }
 
+.header__jumbotron_bg-coffee-cup {
+  background-image: url("assets/about/desktop/image-hero-whitecup.jpg");
+}
+
 .header__jumbotron-content {
   width: clamp(260px, 50%, 450px);
 }
