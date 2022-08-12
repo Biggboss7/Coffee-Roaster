@@ -237,17 +237,17 @@ a {
 }
 
 /* CTA Section */
-.cta__container {
+.cta__container, .headquarters__container {
   margin-bottom: 10rem;
 }
 
-.cta__card-container {
+.cta__card-container, .headquarters__card-container {
   margin-bottom: 3rem;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
 
-.cta__title {
+.cta__title, .headquarters__title {
    color:var(--grey);
    margin-bottom: 5rem;
 }
@@ -278,7 +278,7 @@ a {
   width: 15.6rem;
 }
 
-.cta__card-title {
+.cta__card-title, .headquarters__card-title {
   margin-bottom: 1.5rem;
   font-size: clamp(2rem, 2.0880rem + -0.3756vw, 1.75rem);
   line-height: 36px;
@@ -312,6 +312,7 @@ a {
 
 /* Coffee Quality Section */
 .quality__container {
+  margin-bottom: 10rem;
   display: flex;
   justify-content: space-around;
   flex-direction: row-reverse;
@@ -331,6 +332,11 @@ a {
 .quality__content {
   padding-top: 7rem;
   width: 40%;
+}
+
+/* Headquarters Section */
+.headquarters__logo {
+  margin-bottom: 1rem;
 }
 
 /* Footer Section */
