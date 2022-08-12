@@ -483,6 +483,10 @@ a {
   }
 
   /* Header Section */
+  .header__jumbotron_bg-coffee-cup {
+    background-image: url("assets/about/mobile/image-hero-whitecup.jpg");
+  }
+
   .header, .main__container, .footer__container {
     padding-left: 1rem;
     padding-right: 1rem;
