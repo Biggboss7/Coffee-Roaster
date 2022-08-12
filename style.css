@@ -390,6 +390,10 @@ a {
     background-image: url("assets/home/tablet/image-hero-coffeepress.jpg");
   }
 
+  .header__jumbotron_bg-coffee-cup {
+    background-image: url("assets/about/tablet/image-hero-whitecup.jpg");
+  }
+
   /* Features Section */
   .features__container, .why-us__card-container {
     grid-template-columns: 1fr;
