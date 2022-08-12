@@ -427,8 +427,23 @@ a {
   }
 
   /* Commitment Section */
-  .commitment__content {
+  .commitment__content, .quality__content {
     width: 100%;
+  }
+
+  /* Quality Section */
+  .quality__container {
+    flex-wrap: wrap;
+  }
+
+  .quality__image-container {
+    transform: translate(0, -100px);
+  }
+
+  .quality__content {
+    margin-top: -80px;
+    padding: 2rem;
+    text-align: center;
   }
 
   /* Footer Section */
