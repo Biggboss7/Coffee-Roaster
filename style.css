@@ -201,7 +201,7 @@ a {
   text-align: center;
 }
 
-.why-us__title, .commitment__title {
+.why-us__title, .commitment__title, .quality__title {
   margin-bottom: 1.5rem;
   font-size: clamp(2rem, 1.8239rem + 0.7512vw, 2.5rem);
 }
@@ -287,6 +287,7 @@ a {
 /* Company Commitment Section */
 .commitment__container {
   margin-top: -5rem;
+  margin-bottom: 15rem;
   display: grid;
   justify-content: center;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
@@ -307,6 +308,29 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+/* Coffee Quality Section */
+.quality__container {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row-reverse;
+  color: var(--light-cream);
+  background-color: #2C343E;
+  border-radius: 10px;
+}
+
+.quality__image-container {
+  transform: translate(-50px, -100px);
+}
+
+.quality__image {
+  border-radius: 10px;
+}
+
+.quality__content {
+  padding-top: 7rem;
+  width: 40%;
 }
 
 /* Footer Section */
