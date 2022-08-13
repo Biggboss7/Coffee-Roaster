@@ -326,6 +326,7 @@ a {
 }
 
 .quality__image {
+  max-width: 90%;
   border-radius: 10px;
 }
 
@@ -437,7 +438,7 @@ a {
   }
 
   .quality__image-container {
-    transform: translate(0, -100px);
+    transform: translate(18px, -100px);
   }
 
   .quality__content {
