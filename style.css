@@ -46,6 +46,11 @@ a {
   text-align: justify;
 }
 
+.black_theme {
+  color: var(--light-cream);
+  background-color: #2C343E;
+}
+
 /* Header Section */
 .header {
   margin-bottom: 15rem;
@@ -243,6 +248,11 @@ a {
 /* CTA Section */
 .cta__container, .headquarters__container {
   margin-bottom: 10rem;
+}
+
+.cta__container {
+  padding: 6rem 5rem 3rem;
+  border-radius: 10px;
 }
 
 .cta__card-container, .headquarters__card-container {
