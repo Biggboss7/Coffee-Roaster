@@ -102,6 +102,10 @@ a {
   background-image: url("assets/about/desktop/image-hero-whitecup.jpg");
 }
 
+.header__jumbotron_bg-coffee-latte {
+  background-image: url("assets/plan/desktop/image-hero-blackcup.jpg");
+}
+
 .header__jumbotron-content {
   width: clamp(260px, 50%, 450px);
 }
