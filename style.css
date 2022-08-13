@@ -496,7 +496,8 @@ a {
   .header__jumbotron-content,
   .features__card-content,
   .why-us__card-content, .cta__card-content,
-  .cta__title, .commitment__content  {
+  .cta__title, .commitment__content, .headquarters__card,
+  .headquarters__title  {
     text-align: center;
   }
 
@@ -542,7 +543,7 @@ a {
   }
 
   /* CTA Section */
-  .cta__card-container {
+  .cta__card-container, .headquarters__card-container {
     grid-template-columns: 1fr;
   }
 
@@ -556,6 +557,11 @@ a {
 
   .commitment__container {
     margin-top: 3rem;
+  }
+
+  /* Headquarters Section */
+  .headquarters__card-container {
+    grid-row-gap: 5rem;
   }
 
   /* Footer Section */
