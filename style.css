@@ -358,6 +358,7 @@ a {
 /* Guide Section */
 .guide__container {
   position: relative;
+  margin-bottom: 10rem;
 }
 
 .guide__box-container {
