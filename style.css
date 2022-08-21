@@ -128,6 +128,7 @@ a {
 .btn {
   width: 13.5rem;
   height: 3.5rem;
+  display: block;
   font-family: 'Fraunces', serif;
   border-style: none;
   border-radius: 5px;
@@ -411,6 +412,39 @@ a {
   padding: 2.5rem 3rem 0 2rem;
   background-color: #F4F1EB;
   border-radius: 10px;
+}
+
+/* Order Summary */
+.summary__container {
+  padding: 3rem 5rem;
+  margin-bottom: 1.5rem;
+  border-radius: 10px;
+}
+
+.summary__title {
+  margin-bottom: 1rem;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.summary__description {
+  font-family: 'Fraunces', serif;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+.summary__description span {
+  color: var(--dark-cyan);
+}
+
+.summary__btn {
+  margin-left: auto;
+}
+
+.nohover {
+  color: #FFF;
+  
 }
 
 /* Footer Section */
